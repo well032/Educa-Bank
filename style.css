@@ -1,0 +1,223 @@
+*{ /* Configuração padrão */
+    margin: 0 ;
+    padding: 0;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+header{
+    background-color: rgb(178, 49, 178); /* Cor de fundo */
+    padding: 40px;
+
+}
+
+.menu-header{ 
+    display: flex; /* Alinhar itens um do lado do outro */
+    justify-content: end; /* "JOGAR" o conteúdo para o Final (End) */
+    flex-wrap: wrap; /* "Quebra de linha" */
+}
+
+.menu-header > li > a {
+    text-decoration: none; /* Sublinhado */
+    color: white; /* Cor :) */
+    font-size: 13px;
+}
+
+.menu-header > li > a:hover { /* Estilizar a tag "a" quando se passa o mouse */
+    color: rgb(250, 164, 255);
+    font-size: 14px;
+    transition: 0.8s; /* Tempo de transição do efeito */
+}
+
+.menu-header > li{
+    margin-left: 25px;
+}
+
+#sessao {
+    padding: 15rem; /* Equivale 16px */
+    background-color: rgb(138, 43, 226);
+    background: linear-gradient(180deg,rgba(184, 3, 255, 0.544) 8.33%,
+    rgb(178, 49, 178) 80.55%) ;
+}
+
+#sessao > .title > h1 {
+    font-size: 50px;
+    color: rgb(213, 213, 213);
+    margin-right: 30px;
+}
+
+.title {
+    display: flex;
+    
+}
+
+#sessao > p {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+#sessao > button{
+    padding: 20px;
+    border-radius: 45px;
+    width: 15rem;
+    color: rgb(176, 13, 185);
+    border-color:  blueviolet;
+    margin: 20px;
+    font-size: 15px;
+}
+
+#sessao > button:hover{
+    transition: 0.2s;   
+    font-size: 16px;
+    background-color: rgb(246, 67, 255);
+    color: white;
+}
+
+#app {
+    padding: 30vh; 
+    background-color: rgb(204, 204, 204);
+    display: flex; /* Itens lado a lado */
+    justify-content: space-between; /* Justificando o espaçamento do conteúdo inicial ao final */
+    flex-wrap: wrap; /* "Quenra de Tela" */
+}
+
+#app > div >button {
+    padding: 20px; 
+    border-radius: 45px;
+    width: 20vw;
+    color: rgb(41, 41, 41);
+    border-color:  rgb(139, 139, 139);
+    margin: 30px;
+    font-size: 15px;
+}
+
+#app > div >button:hover {   
+transition: 0.2s;
+font-size: 16px;
+background-color: rgba(238, 238, 238, 0.356);
+border-color: rgb(155, 154, 154);
+}
+
+#app > div > p {
+    font-size: 45px;
+}
+
+#app > div > img{
+    width: 50vh;
+    height: 60vh;
+    margin-left: 65px;
+    margin-top: -70px;
+    
+}
+
+#container{
+    padding: 25vh;
+    background-color: rgb(204, 204, 204);
+    flex-wrap: wrap;
+}
+
+#container > h2 {
+    font-size: 40px;
+    margin-top: -20rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#container > p {
+    font-size: 20px;
+    margin-top: 30px;
+    color: black;
+    text-align: justify; /* "Final do texto" */
+}
+
+#container > .text1{
+    text-align: center;
+}
+
+#container > button{
+    padding: 20px; 
+    border-radius: 45px;
+    width: 20vw;
+    color: rgb(41, 41, 41);
+    border-color:  rgb(139, 139, 139);
+    margin: 30px;
+    font-size: 15px;
+}
+
+#container > button:hover{
+    transition: 0.3s;
+    background-color:rgba(238, 238, 238, 0.356);
+    font-size: 16px;
+}
+
+.line{
+    margin: 0 auto; /* 0(Eixo de cima e de baixo), auto(Eixos Laterais) */
+    width: 70%;
+}
+
+#container > img{
+    /* width: 50vw; */
+    margin-top: 30px;
+    margin-left: 15vw;
+}
+
+#container-cofre{
+    background: linear-gradient(180deg, #ba0cff64 8.33%, rgba(202, 40, 252, 0.705)), 
+    url(imagens/img\ cofre\ fundo.jpg); /* VÍRGULA */
+    background-position: center;/* Posiciona a imagem de fundo */
+    background-attachment: fixed; /* Efeito do scroll */
+    height: 50rem;
+    display: flex;
+    align-items: center; /* Centraliza na Vertical */
+    flex-wrap: wrap;
+}
+
+#container-cofre > div > img{
+   width: 19vw;
+   margin-left: 15rem;
+   margin-top: 5rem;
+   flex: wrap;
+}
+
+
+
+#container-cofre > div > h2{
+    color: white;
+    font-size: 30px;
+    margin-left: 9rem;
+}
+
+#container-cofre > div > p{
+    color: white;
+    font-size: 25px;
+    margin-left: 9rem;
+    margin-top: 2rem
+}
+
+footer{
+   padding: 7vh;
+   background-color: rgb(185, 185, 185);
+   color:rgb(0, 0, 0);
+   text-align: center;
+}
+
+footer > img{
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+}
+
+.item-footer{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    
+}
+
+.item-footer > a{
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+    
+}
+
+
+
+
